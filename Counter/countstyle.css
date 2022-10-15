@@ -1,9 +1,0 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.counter{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(cyan,rgb(81, 64, 164));
-}
