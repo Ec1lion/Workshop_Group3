@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(117, 61, 154, 61, 61, 154), rgba(82, 82, 225, 0.621));
+}

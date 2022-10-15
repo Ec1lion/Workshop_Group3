@@ -1,0 +1,114 @@
+/* .header img {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+} */
+
+
+ .header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(180, 177, 255, 0.36),rgba(171, 117, 228, 0.344)), url(HeaderPic.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.WelcomeText {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal ;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 107px;
+    text-align: center;
+    vertical-align: top;
+    color: white;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.introMainText {
+    text-align: center;
+    width: 80%;
+    /* 
+    height: 343px;  
+    top: 400px;
+    padding: 15px;
+    margin-left: 45px; */
+
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    
+    color: #664D1D;
+}
+
+.introText {
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #664D1D;
+
+}
+
+.Line {
+
+ width: 460px;
+ top: 0px;
+ left: 554px;
+ margin-top: 70px;
+
+ border: 2px solid rgb(255, 255, 255);
+ transform: rotate(-0.25deg);
+}
+
+.entlogo {
+    position: absolute;
+    width: 95.22px;
+    height: 85px;
+    left: 700px;
+}
+
+.BodyText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #FFEDBE;
+border-radius: 55px  55px 0 0;
+}
+
+.entButton {
+    font-size: xx-large;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 764px;
+    height: 107px;
+    left: 354px;
+    top: 809px;
+    
+    background: #BFA769;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 159px;
+} 
+
+.entButton:hover {
+    background: #E9CF8C;
+    border-radius: 159px;
+    transition: 0.2s;
+}
+
+a:visited {
+    text-decoration: no;
+}

@@ -1,0 +1,12 @@
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(178, 58, 178, 0.449), rgba(255, 192, 203, 0.46));
+}
